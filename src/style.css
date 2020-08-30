@@ -1,0 +1,51 @@
+.homeImg{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.slope{
+    background-color: transparent;
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+    padding-left:29%;
+}
+
+.homeText{
+    margin-left:23%;
+}
+
+.HomeContent{
+    background-color: transparent;
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+
+.navbar{
+    background-color: transparent;
+}
+
+
+
+.hpText{
+    font-size:  1.4rem;
+}
+
+.zoom {
+  
+    transition: transform .2s; /* Animation */
+   
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    cursor: pointer;
+  }
+
+  a{
+      color:inherit;    
+  }
+
+  a:hover{
+    color:inherit;    
+}
+  
