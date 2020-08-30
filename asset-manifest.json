@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/factual-physique/static/css/main.bc79bc2e.chunk.css",
+    "main.js": "/factual-physique/static/js/main.4975da40.chunk.js",
+    "main.js.map": "/factual-physique/static/js/main.4975da40.chunk.js.map",
+    "runtime-main.js": "/factual-physique/static/js/runtime-main.ee5ff598.js",
+    "runtime-main.js.map": "/factual-physique/static/js/runtime-main.ee5ff598.js.map",
+    "static/css/2.11829350.chunk.css": "/factual-physique/static/css/2.11829350.chunk.css",
+    "static/js/2.ee143fb3.chunk.js": "/factual-physique/static/js/2.ee143fb3.chunk.js",
+    "static/js/2.ee143fb3.chunk.js.map": "/factual-physique/static/js/2.ee143fb3.chunk.js.map",
+    "index.html": "/factual-physique/index.html",
+    "precache-manifest.acda55c3aad7d3c3ed43b5736fd310bb.js": "/factual-physique/precache-manifest.acda55c3aad7d3c3ed43b5736fd310bb.js",
+    "service-worker.js": "/factual-physique/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/factual-physique/static/css/2.11829350.chunk.css.map",
+    "static/css/main.bc79bc2e.chunk.css.map": "/factual-physique/static/css/main.bc79bc2e.chunk.css.map",
+    "static/js/2.ee143fb3.chunk.js.LICENSE.txt": "/factual-physique/static/js/2.ee143fb3.chunk.js.LICENSE.txt",
+    "static/media/HomePageImageCut.jpg": "/factual-physique/static/media/HomePageImageCut.7e947fe0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee5ff598.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.ee143fb3.chunk.js",
+    "static/css/main.bc79bc2e.chunk.css",
+    "static/js/main.4975da40.chunk.js"
+  ]
+}
