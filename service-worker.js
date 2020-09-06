@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/factual-physique/precache-manifest.1b100e8d43a8688d6205e7b61da1d30b.js"
+  "/factual-physique/precache-manifest.ea2a09abe2265fe4c2972ea0a736d815.js"
 );
 
 self.addEventListener('message', (event) => {
