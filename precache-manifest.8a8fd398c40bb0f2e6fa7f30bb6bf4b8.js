@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b1d9c8a5cf38bd560e1f128bf7db093",
+    "revision": "ea0a3a60f34dfcd42e019f375d5b698a",
     "url": "/factual-physique/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/factual-physique/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "e1de3e48f9fa379bb056",
-    "url": "/factual-physique/static/css/main.bd0c6c67.chunk.css"
+    "revision": "5f0ceb7bba9b98da2c70",
+    "url": "/factual-physique/static/css/main.2cd76d7d.chunk.css"
   },
   {
     "revision": "08bc4864a1eb84cea0b0",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/factual-physique/static/js/2.296ec595.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e1de3e48f9fa379bb056",
+    "revision": "5f0ceb7bba9b98da2c70",
     "url": "/factual-physique/static/js/main.5201a9dc.chunk.js"
   },
   {
