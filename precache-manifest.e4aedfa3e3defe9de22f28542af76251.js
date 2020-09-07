@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bb292588f6fa8e9fcba1dbafbbc3ba2f",
+    "revision": "2b1d9c8a5cf38bd560e1f128bf7db093",
     "url": "/factual-physique/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/factual-physique/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "b59c480bd3ba5d0bf6dd",
-    "url": "/factual-physique/static/css/main.545f1736.chunk.css"
+    "revision": "e1de3e48f9fa379bb056",
+    "url": "/factual-physique/static/css/main.bd0c6c67.chunk.css"
   },
   {
     "revision": "08bc4864a1eb84cea0b0",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/factual-physique/static/js/2.296ec595.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b59c480bd3ba5d0bf6dd",
+    "revision": "e1de3e48f9fa379bb056",
     "url": "/factual-physique/static/js/main.5201a9dc.chunk.js"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/factual-physique/static/media/HomePageImage.9475a9bf.jpg"
   },
   {
-    "revision": "a9f361795def256e429c7a02b6638cef",
-    "url": "/factual-physique/static/media/HomePageImageCut.a9f36179.jpg"
+    "revision": "e8c3f21acf5f6ffa11b1e5e3a226cdb4",
+    "url": "/factual-physique/static/media/HomePageImageCut.e8c3f21a.jpg"
   },
   {
     "revision": "e168580264dc755d764044a38eca93bc",
