@@ -31,7 +31,7 @@ return (
             to="services"
             spy={true}
             smooth={true}
-            offset={-40}
+            offset={-50}
             duration= {500}
             >
          Coaching</Link>
@@ -43,7 +43,7 @@ return (
             offset={-40}
             duration= {500}
             >
-         My Goal</Link>
+         Vision</Link>
          <Link
             className="nav-link"
             activeClass="active"

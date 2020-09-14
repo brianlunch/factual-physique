@@ -20,7 +20,7 @@ history: this.props.history
 }
 render() {
 return (
-<div>
+<div className="site">
    <Navbar></Navbar>
    <div className="Home" id="home" >
       <div className="HomeContent">
@@ -38,13 +38,14 @@ return (
                <a target="_blank" className="socials " href="https://www.facebook.com/factualphysique-328939584467188/">
                   <FontAwesomeIcon className="zoom" icon={faFacebook} />
                </a>
+               <br/><br/><br/>
             </div>
          </div>
       </div>
    </div>
-   <Services1></Services1>
-   <About></About>
-   <Contact></Contact>
+   <Services1 class ="s1"></Services1>
+   <About class="ab"></About>
+   
    <Footer></Footer>
 </div>
 )

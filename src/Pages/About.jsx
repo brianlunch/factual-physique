@@ -12,20 +12,20 @@ history: this.props.history
 }
 render() {
 return (
-<div className="Aboutt" id="about">
-   <div className="row  justify-content-center ">
+<div className="About" id="about">
+   <div className="row  justify-content-left ">
       <div className="col-lg-8 col-md-8 col-xs-12 text-center ">
-         <h1 className="display-3 text-center">My Goal</h1>
+         <h1 className="display-3 text-center">My Vision</h1>
          <br/><br/>
          <blockquote className=" text-center">
-            <p className="text-left servicesText">
+            <p className="text-left planText">
                Ever since I got into health and fitness, I’ve always loved helping others progress. It’s become my passion to coach and transform people into the best version of themselves.
                <br/><br/>
                As a coach I am extremely dedicated to providing the the best online coaching service to my client, guiding them to success.
                <br/><br/>
                Whether your goal is to reduce body fat, gain muscle mass, fitness, sports specific or you just need extra support and structure on your journey
                <br/><br/>
-               My <b> Online Coaching Plan </b>can help you.
+               My <b class="text-main"> Online Coaching </b>can help you.
             </p>
          </blockquote>
       </div>

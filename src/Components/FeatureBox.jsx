@@ -12,18 +12,20 @@ this.state = { history: this.props.history }
 render() {
 
 return (
-<div className = "featureBox zoom">
-                           <h3>
-                              {this.props.icon === "faWhatsapp" ? <FontAwesomeIcon icon={faWhatsapp}/>: <p></p>}
-                              {this.props.icon === "faBookOpen" ? <FontAwesomeIcon icon={faBookOpen}/>: <p></p>}
-                              {this.props.icon === "faRunning" ? <FontAwesomeIcon icon={faRunning}/>: <p></p>}
-                              {this.props.icon === "faCalendarCheck" ? <FontAwesomeIcon icon={faCalendarCheck}/>: <p></p>}
-                              {this.props.icon === "faDumbbell" ? <FontAwesomeIcon icon={faDumbbell}/>: <p></p>}
-                              {this.props.icon === "faPhoneAlt" ? <FontAwesomeIcon icon={faPhoneAlt}/>: <p></p>}
-                           </h3>
+    
+<div className = "featureBox">
+                           
+                              {this.props.icon === "faWhatsapp" ? <h3><FontAwesomeIcon icon={faWhatsapp}/></h3>: null}
+                              {this.props.icon === "faBookOpen" ? <h3><FontAwesomeIcon icon={faBookOpen}/></h3>: null}
+                              {this.props.icon === "faRunning" ? <h3><FontAwesomeIcon icon={faRunning}/></h3>: null}
+                              {this.props.icon === "faCalendarCheck" ? <h3><FontAwesomeIcon icon={faCalendarCheck}/></h3>: null}
+                              {this.props.icon === "faDumbbell" ? <h3><FontAwesomeIcon icon={faDumbbell}/></h3>:null}
+                              {this.props.icon === "faPhoneAlt" ? <h3><FontAwesomeIcon icon={faPhoneAlt}/></h3>:null}
+                           
                            <h4>{this.props.title}</h4>
                            <p>{this.props.text}</p>
                         </div>
+                  
 )
 }
 }

@@ -2,6 +2,11 @@
     --p: #bb0000;
   }
 
+  body {
+    font-family: 'Montserrat', sans-serif
+  }
+ 
+
 .homeImg{
     max-width: 100%;
     height: auto;
@@ -48,7 +53,9 @@
 .ig:hover{
     color: #ff0000;
 }
-
+.emailAd:hover{
+    color: var(--p);
+}
 .HomeContent{
     background-color: transparent;
     padding-top:5%;
@@ -128,14 +135,8 @@
     text-align: center;
     padding: 2%;
 }   
-@media (max-width: 767px){
-    .plan1{border: none;}
-    .plan2{border: none;}
-    .plan3{border: none;}
-    .plan4{border: none;}
-    .plan5{border: none;}
-    .plan6{border: none;}
-}
+
+
 .form-control{
     border:none;
     border-bottom: 1px solid var(--p);
@@ -147,7 +148,7 @@ textarea.form-control{
 }
 
 .formButton{
-    width:40%;
+    width:50vw;
     border-radius: 16px;
     font-weight: 500;
 }
@@ -161,27 +162,37 @@ textarea.form-control{
 .nav-footer, .footerContact{
     padding-top:3%
 }
-
-@media screen and (max-width: 768px) {
+/* small*/
+@media screen and (max-width: 767px) {
+    .Home{
+     height: 100vh;
+    }
     .logo{
         display:none;
     }
-
+    
+   
+        .plan1{border: none;}
+        .plan2{border: none;}
+        .plan3{border: none;}
+        .plan4{border: none;}
+        .plan5{border: none;}
+        .plan6{border: none;}
+    
     .HomeContent{
-        height:90vh;
+        height:100vh;
     }
     .Home{
     background-position: center;
     }
     .About{
-        background-image: url('./aboutmeMobile.jpeg');
+        
         height:100%;
           background-repeat: no-repeat;
           background-size: cover;
           width:auto;
           background-position: left;
           filter: brightness(90%);
-          padding-top:50%;
     }
     .nav-footer{
     display: none;
@@ -211,6 +222,7 @@ textarea.form-control{
         font-size:3rem;
     }
 }
+/*Medium*/
 @media screen and (min-width: 768px) {
     .Home{
         background-image: linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(250,250,250,0) 30%),url('./HomePageImageCut.jpg');
@@ -218,7 +230,9 @@ textarea.form-control{
           background-repeat: no-repeat;
           background-size: cover;
           width:auto;
+          background-position: left;
     }
+    
     .mobileOnly{display: none;}
     .About{
         background-image: url('./aboutmeCut.jpeg');
@@ -227,20 +241,24 @@ textarea.form-control{
           background-size: cover;
           width:auto;
           background-position: right;
-          filter: brightness(20%);
-          -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+          
+
+         
     }
     .aboutText{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     
+}
+
+.aboutText{
+    font-size: 1.4rem;
 }
 
 .bigBtn{
     font-size:1.5rem;
 }
-
+/*Large Screen*/
 @media screen and (min-width: 992px) {
     .Home{
         background-image:linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(250,250,250,0) 30%),
@@ -249,6 +267,7 @@ textarea.form-control{
           background-repeat: no-repeat;
           background-size: cover;
           width:auto;
+          background-position: top;
     }
 
     .About{
@@ -258,14 +277,10 @@ textarea.form-control{
           background-size: cover;
           width:auto;
           background-position: right;
-          filter: brightness(20%);
-          -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+          
+        
     }
-
-    .aboutText{
-        font-size: 1.3rem;
-    }
+    
 }
 
 
@@ -295,7 +310,7 @@ textarea.form-control{
   
 .About{
     min-height: 100vh;
-    padding: 7%;
+    padding: 3%;
     text-align: center;
 }
 
@@ -304,14 +319,13 @@ textarea.form-control{
     padding: 5%;
     text-align: center;
     
+    
 }
 .bg-black{
     padding: 5%;
     text-align: center;
-    background-color: #e3e3e3;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='1' stop-color='%23e3e3e3'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23ffffff' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23ffffff' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #eaeaea;
+    
     padding:2%;
 }
 
@@ -321,6 +335,8 @@ textarea.form-control{
     border: 1.75px solid var(--p);
     border-radius: 2%;
     margin-bottom:5%;
+    height:90%
+      
 }
 .featureBox {
     /* Add shadows to create the "card" effect */
@@ -334,9 +350,7 @@ textarea.form-control{
   }
 .Services{
     min-height: 80vh;
-    padding: 2%;
     text-align: center;
-    padding-bottom: 0%;
 }
 
 .Contact{
@@ -390,3 +404,15 @@ b{
     background: rgba(52,58,64,1);
 }
 
+.gradient1{
+    background: linear-gradient(0deg, rgba(234,234,234,1) 1%, rgba(255,255,255,1) 20%);
+}
+
+.gradient2{
+    background: linear-gradient(0deg, rgba(238,238,238,1) 5%, rgba(234,234,234,1) 50%, rgba(231,231,231,1) 97%);
+}
+
+.text-main{
+    color:var(--p);
+    
+}
