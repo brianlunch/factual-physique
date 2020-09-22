@@ -1,7 +1,8 @@
-:root {
-    --p: #33b3f3;
-  }
 
+.padded-container{
+    padding-top:25px;
+    padding-bottom: 25px;;
+}
 .parallax {
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -388,4 +389,201 @@ b{
     padding:1%;
 }
 
+
+
+/*******************************
+
+            About 
+            
+            
+*/
+
+.cut-out{
+    position: relative;
+    height: 1000px;
+}
+
+
+.About{
+    min-height: 60vh;
+    background-color: #9FCBDF;
+    color:white;
+}
+
+.center-child{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.center-parent{
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .cut-out{
+        display: none;
+    }
+
+    .center-child{
+        position: relative;
+        transform: none;
+        top:0;
+    }
+}
+
+/****************************
+            NAVBAR
+
+*/
+
+
+.navbar {
+    transition: all 0.4s;
+    background:transparent;
+}
+
+.navbar .nav-link {
+    color: black;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: black;
+}
+
+.nav-logo{
+    height:50px;
+}
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color:  #343a40;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color:  #343a40;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color:  #343a40;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    text-decoration:none;
+    transition: 0.2s;
+    color:#33b3f3 !important;
+}
+
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: white;
+    }
+
+    .navbar.active{
+        background:white;
+    }
+
+
+    .navbar .navbar-brand, .navbar .nav-link .nav-item .navbar-toggler-icon{
+        color:  #343a40;
+    }
+
+    .nav-logo{
+        height:25px;
+    }
+    
+}
+
+
+/****************************
+       
+        Application
+
+*/
+
+.blueBtn{
+    text-decoration: none;
+    padding:20px;
+    border-radius:40px;
+    text-transform: uppercase;
+    color:white;
+    border:none;
+    background-color: #33b3f3;
+    font-weight:600;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    min-width:200px;
+    margin-top:25px;
+}
+
+
+
+
+/*************************
+
+    Footer
+
+*/
+
+.Footer a{
+    text-decoration: none;
+    color:white;
+}
+
+.Footer a:hover{
+    cursor: pointer;
+    text-decoration:none;
+    transition: 0.2s;
+    color:#33b3f3 !important;
+}
+
+
+
+/*******************
+
+
+    Header
+
+*/
+
+.Home{
+    padding-top:50px;
+}
+
+.top-margin{
+    margin-top:25px;
+}
+
+.socials{
+    font-size:2.2rem;
+    padding:2%;
+    color:white
+}
+
+.socials:hover{
+    color: black;
+    cursor:pointer;
+}
+
+.header-text{
+    color:white;
+}
 

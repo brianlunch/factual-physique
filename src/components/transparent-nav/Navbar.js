@@ -4,9 +4,6 @@ import { Link } from 'react-scroll';
 //hooks
 import { useScrollPosition } from '@n8tb1t/use-scroll-position';
 
-//styles
-import './Navbar.css';
-
 //icons
 import { FaBars } from "react-icons/fa";
 

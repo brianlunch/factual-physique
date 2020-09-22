@@ -15,8 +15,8 @@ const Services = (props) => {
    return (
       <div className="Services section" id="services">
          <div className="container">
-            <h1 className="section-heading text-center bottom-margin service-heading">Online Coaching</h1>
-            <div className="bottom-margin">
+            <h1 className="section-heading text-center service-heading">Online Coaching</h1>
+            <div className="padded-container">
                <p className="text-center planText">
                   My online coaching isn’t for people who are looking for a quick fix. 
                </p>

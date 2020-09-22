@@ -3,11 +3,8 @@ import React, { useState, Fragment } from 'react'
 import {Modal} from 'react-bootstrap'
 import Axios from 'axios';
 
-
-// styles
-import './Application.css';
-
-
+// .env
+import { API } from '../../../config';
 
 const Application = (props) => {
 
@@ -52,7 +49,7 @@ const Application = (props) => {
       event.preventDefault();
       setApplicationState(applicationState.disabled = true)
 
-      Axios.post('http://localhost:3030/api/email', applicationState) // url should be in constants
+      Axios.post(`${API}/email`, applicationState) 
          .then(res => {
             if(res.data.success) {
                setApplicationState({...applicationState, disabled : false})

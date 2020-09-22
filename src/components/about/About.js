@@ -1,7 +1,5 @@
 import React from 'react'
 
-import './About.css';
-
 //images
 import AdamTransparent from '../../assets/images/latestcutout.png';
 

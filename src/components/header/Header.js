@@ -6,7 +6,6 @@ import { faInstagram, faTiktok, faFacebook } from '@fortawesome/free-brands-svg-
 // assets
 import logo from '../../assets/images/Logo_transparent_white.png'
 
-import './Header.css';
 
 const Header = (props) => {
     return(

@@ -7,8 +7,6 @@ import {Link, animateScroll as scroll} from 'react-scroll'
 //assets
 import logo from '../../assets/images/Logo_words_w.png'
 
-//styles
-import './Footer.css';
 
 const Footer = () => {
 
