@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/factual-physique/static/css/main.9207b112.chunk.css",
-    "main.js": "/factual-physique/static/js/main.cb27a30f.chunk.js",
-    "main.js.map": "/factual-physique/static/js/main.cb27a30f.chunk.js.map",
+    "main.css": "/factual-physique/static/css/main.5de4910e.chunk.css",
+    "main.js": "/factual-physique/static/js/main.afad9334.chunk.js",
+    "main.js.map": "/factual-physique/static/js/main.afad9334.chunk.js.map",
     "runtime-main.js": "/factual-physique/static/js/runtime-main.ee5ff598.js",
     "runtime-main.js.map": "/factual-physique/static/js/runtime-main.ee5ff598.js.map",
     "static/css/2.11829350.chunk.css": "/factual-physique/static/css/2.11829350.chunk.css",
-    "static/js/2.296ec595.chunk.js": "/factual-physique/static/js/2.296ec595.chunk.js",
-    "static/js/2.296ec595.chunk.js.map": "/factual-physique/static/js/2.296ec595.chunk.js.map",
+    "static/js/2.74c0a7d0.chunk.js": "/factual-physique/static/js/2.74c0a7d0.chunk.js",
+    "static/js/2.74c0a7d0.chunk.js.map": "/factual-physique/static/js/2.74c0a7d0.chunk.js.map",
     "index.html": "/factual-physique/index.html",
-    "precache-manifest.91d774c5e07dd65c3495fc7490fa2d1b.js": "/factual-physique/precache-manifest.91d774c5e07dd65c3495fc7490fa2d1b.js",
+    "precache-manifest.31576886f0e062baa88d5429c538679a.js": "/factual-physique/precache-manifest.31576886f0e062baa88d5429c538679a.js",
     "service-worker.js": "/factual-physique/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/factual-physique/static/css/2.11829350.chunk.css.map",
-    "static/css/main.9207b112.chunk.css.map": "/factual-physique/static/css/main.9207b112.chunk.css.map",
-    "static/js/2.296ec595.chunk.js.LICENSE.txt": "/factual-physique/static/js/2.296ec595.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/factual-physique/static/media/backgroundSmall.260cbe62.jpeg"
+    "static/css/main.5de4910e.chunk.css.map": "/factual-physique/static/css/main.5de4910e.chunk.css.map",
+    "static/js/2.74c0a7d0.chunk.js.LICENSE.txt": "/factual-physique/static/js/2.74c0a7d0.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/factual-physique/static/media/background_large_colour.e03c2a4e.jpeg",
+    "static/media/latestcutout.png": "/factual-physique/static/media/latestcutout.453beb00.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ee5ff598.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.296ec595.chunk.js",
-    "static/css/main.9207b112.chunk.css",
-    "static/js/main.cb27a30f.chunk.js"
+    "static/js/2.74c0a7d0.chunk.js",
+    "static/css/main.5de4910e.chunk.css",
+    "static/js/main.afad9334.chunk.js"
   ]
 }
