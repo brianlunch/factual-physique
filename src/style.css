@@ -1,11 +1,48 @@
 :root {
-    --p: #bb0000;
+    --p: #33b3f3;
   }
 
-  body {
-    font-family: 'Montserrat', sans-serif
-  }
- 
+.parallax {
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bottom-margin{
+    margin-bottom:25px;
+}
+
+
+.heading-container{
+    padding:25px;
+}
+
+.section{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.section-heading{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    text-transform: none;
+    text-transform: uppercase;
+}
+
+.section-subheading{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: +0.05em;
+    text-transform: none;
+    text-transform: uppercase;
+}   
+
+
 
 .homeImg{
     max-width: 100%;
@@ -16,6 +53,7 @@
 .featuresTitle{
     font-size: 2.3rem;
 }
+
 .slope{
     background-color: transparent;
     clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
@@ -42,17 +80,7 @@
     margin-left:23%;
 }
 
-.socials{
-    font-size:2.2rem;
-    padding:2%;
-}
 
-.socials:hover{
-    color: var(--p);
-}
-.ig:hover{
-    color: #ff0000;
-}
 .emailAd:hover{
     color: var(--p);
 }
@@ -62,25 +90,12 @@
     padding-bottom: 5%;
 }
 
-.navbar{
-    background-color: transparent;
-}
-
-.custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
-  
-  .custom-toggler.navbar-toggler {
-    border-color: rgb(255,102,203);
-  } 
-
 .Home{
-    background-image: linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(250,250,250,0) 13%),url('./backgroundSmall.jpeg');
+    background-image: url('./assets/images/backgroundSmall.jpeg');
     height:80vh;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width:100%;
-     
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;    
 }
 
 .plan{
@@ -165,11 +180,38 @@ textarea.form-control{
 /* small*/
 @media screen and (max-width: 767px) {
     .Home{
-     height: 100vh;
+        height: 100vh;
     }
+
+    .parallax {
+        /* Remove the parallax scrolling effect */
+        background-attachment: scroll;
+
+    }
+
     .logo{
         display:none;
     }
+
+    .section-heading{
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: -0.05em;
+        text-transform: none;
+        text-transform: uppercase;
+    }
+    
+    .section-subheading{
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: +0.05em;
+        text-transform: none;
+        text-transform: uppercase;
+    }   
+
+    
     
    
         .plan1{border: none;}
@@ -183,26 +225,16 @@ textarea.form-control{
         height:100vh;
     }
     .Home{
-    background-position: center;
-    }
-    .About{
-        
-        height:100%;
-          background-repeat: no-repeat;
-          background-size: cover;
-          width:auto;
-          background-position: left;
-          filter: brightness(90%);
+        background-position: center;
     }
     .nav-footer{
-    display: none;
+        display: none;
     }
    .footerSocial{
        text-align:left !important;
    }
-    .Aboutt{
-        padding-top:10%;
-    }
+
+
 
     .Services{
         padding:5%;
@@ -225,7 +257,7 @@ textarea.form-control{
 /*Medium*/
 @media screen and (min-width: 768px) {
     .Home{
-        background-image: linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(250,250,250,0) 30%),url('./HomePageImageCut.jpg');
+        background-image: url('./assets/images/HomePageImageCut.jpeg');
         height:80vh;
           background-repeat: no-repeat;
           background-size: cover;
@@ -234,21 +266,16 @@ textarea.form-control{
     }
     
     .mobileOnly{display: none;}
-    .About{
-        background-image: url('./aboutmeCut.jpeg');
-        height:100%;
-          background-repeat: no-repeat;
-          background-size: cover;
-          width:auto;
-          background-position: right;
-          
 
-         
-    }
     .aboutText{
         font-size: 1.3rem;
     }
     
+}
+
+.container-padding{
+    padding-top:50px;
+    padding-bottom:50px;
 }
 
 .aboutText{
@@ -261,24 +288,13 @@ textarea.form-control{
 /*Large Screen*/
 @media screen and (min-width: 992px) {
     .Home{
-        background-image:linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(250,250,250,0) 30%),
-        url('./HomePageImage.jpg');
+        background-image:
+        url('./assets/images/background_large_colour.jpeg');
         height:80vh;
-          background-repeat: no-repeat;
-          background-size: cover;
-          width:auto;
-          background-position: top;
-    }
-
-    .About{
-        background-image: url('./aboutme.jpeg');
-        height:100%;
-          background-repeat: no-repeat;
-          background-size: cover;
-          width:auto;
-          background-position: right;
-          
-        
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:auto;
+        background-position: top;
     }
     
 }
@@ -307,27 +323,6 @@ textarea.form-control{
   }
 
 
-  
-.About{
-    min-height: 100vh;
-    padding: 3%;
-    text-align: center;
-}
-
-.Aboutt{
-    min-height: 80vh;
-    padding: 5%;
-    text-align: center;
-    
-    
-}
-.bg-black{
-    padding: 5%;
-    text-align: center;
-    background-color: #eaeaea;
-    
-    padding:2%;
-}
 
 .featureBox{
     background-color: white;
@@ -359,19 +354,14 @@ textarea.form-control{
     text-align: center;
 }
 
-.nav-link.active{
-    border-bottom: 2px solid var(--p);
-    color: var(--p) !important;
-    text-decoration: none;
-}
-
-
-.nav-link:hover, .nav-link-footer:hover{
-    cursor: pointer;
-}
 
 b{
     color: var(--p);
+}
+
+.alt-bold{
+    color:white;
+    font-weight:900;
 }
 
 .btn-outline-main {
@@ -391,28 +381,11 @@ b{
     border-color: var(--p);
     background-color: transparent;
 }
-.nav-link{
-    color:black !important;
-}
 
 .Footer{
     background-color: #343a40 !important;
     
     padding:1%;
 }
-.bgDG{
-    background: rgba(52,58,64,1);
-}
 
-.gradient1{
-    background: linear-gradient(0deg, rgba(234,234,234,1) 1%, rgba(255,255,255,1) 20%);
-}
 
-.gradient2{
-    background: linear-gradient(0deg, rgba(238,238,238,1) 5%, rgba(234,234,234,1) 50%, rgba(231,231,231,1) 97%);
-}
-
-.text-main{
-    color:var(--p);
-    
-}

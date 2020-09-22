@@ -1,30 +1,27 @@
+//libraries
 import React from 'react'
-import { Route, Switch, BrowserRouter as Router} from 'react-router-dom'
-import Home from './Pages/Home'
+import { Route, Switch} from 'react-router-dom'
 import { HashRouter } from 'react-router-dom'
-import history from './Utils/History.jsx'
 
+//pages
+import Home from './pages/home/Home';
+
+//utils
+import history from './utils/History.js'
+
+//styles & assets
 import './style.css'
-//import './App.css'
 
 
 
-  
-
-
-function App() {
-
-    
+const App = () => {
   return (
     <div className="App">
       <HashRouter basename={process.env.PUBLIC_URL} history={history}>
         <Switch>
-          <Route exact path={'/'}component={Home}/>
-          
-
+          <Route exact path={'/'} component={Home}/>
         </Switch>
       </HashRouter>
-      
     </div>
   )
 }

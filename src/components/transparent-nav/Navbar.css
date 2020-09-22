@@ -1,0 +1,72 @@
+.navbar {
+    transition: all 0.4s;
+    background:transparent;
+}
+
+.navbar .nav-link {
+    color: black;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: black;
+}
+
+.nav-logo{
+    height:50px;
+}
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color:  #343a40;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color:  #343a40;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color:  #343a40;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    text-decoration:none;
+    transition: 0.2s;
+    color:#33b3f3 !important;
+}
+
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: white;
+    }
+
+    .navbar.active{
+        background:white;
+    }
+
+
+    .navbar .navbar-brand, .navbar .nav-link .nav-item .navbar-toggler-icon{
+        color:  #343a40;
+    }
+
+    .nav-logo{
+        height:25px;
+    }
+    
+}
