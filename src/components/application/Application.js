@@ -42,7 +42,8 @@ const Application = (props) => {
         const target = event.target;
         const value = target.type === 'checkbox' ? target.checked : target.value;
         const nameOfTarget = target.name;
-        setApplicationState({...applicationState, nameOfTarget : value})
+        setApplicationState({...applicationState, [nameOfTarget] : value})
+        console.log(applicationState)
    }
 
    async function handleSubmit(event){
@@ -160,10 +161,10 @@ const Application = (props) => {
                 </select>
                 <br/><br/>
                 <label>What is your current fitness goal?</label>
-                <textarea className="form-control" type="text" name="goal" onChange={handleChange} required/>
+                <textarea className="form-control text-box" type="text" name="goal" onChange={handleChange} required/>
                 <br/>
                 <label>What is your biggest struggle?</label>
-                <textarea className="form-control" type="text" name="struggle" onChange={handleChange} required/>
+                <textarea className="form-control text-box" type="text" name="struggle" onChange={handleChange} required/>
                 <br/>
                 <div className="form-group">
                    <div className="row">

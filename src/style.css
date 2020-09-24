@@ -154,13 +154,11 @@
 
 
 .form-control{
-    border:none;
-    border-bottom: 1px solid var(--p);
     margin-bottom: 2%;
 }
+
 textarea.form-control{
-    border:none;
-    border: 1px solid var(--p);
+    border: 1px solid #ccc;
 }
 
 .formButton{
