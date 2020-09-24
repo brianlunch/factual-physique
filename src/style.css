@@ -32,6 +32,7 @@
     letter-spacing: -0.05em;
     text-transform: none;
     text-transform: uppercase;
+    padding-top:25px;
 }
 
 .section-subheading{
@@ -92,7 +93,7 @@
 }
 
 .Home{
-    background-image: url('./assets/images/backgroundSmall.jpeg');
+    background-image: url('./assets/images/backgroundSmall_compressed.jpeg');
     height:80vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -256,7 +257,7 @@ textarea.form-control{
 /*Medium*/
 @media screen and (min-width: 768px) {
     .Home{
-        background-image: url('./assets/images/HomePageImageCut.jpeg');
+        background-image: url('./assets/images/HomePageImageCut_compressed.jpeg');
         height:80vh;
           background-repeat: no-repeat;
           background-size: cover;
@@ -288,7 +289,7 @@ textarea.form-control{
 @media screen and (min-width: 992px) {
     .Home{
         background-image:
-        url('./assets/images/background_large_colour.jpeg');
+        url('./assets/images/background_large_colour_compressed.jpeg');
         height:80vh;
         background-repeat: no-repeat;
         background-size: cover;

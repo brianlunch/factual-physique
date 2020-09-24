@@ -1,7 +1,7 @@
 import React from 'react'
 
 //images
-import AdamTransparent from '../../assets/images/latestcutout.png';
+import AdamTransparent from '../../assets/images/latestcutout_compressed.png';
 
 const About = () => {
    return (
@@ -26,7 +26,7 @@ const About = () => {
                   </div>
                </div>
                <div className="col-lg-4 col-md-4 col-xs-12 ">
-                  <img src={AdamTransparent} className="cut-out" alt="a picture of online coach adam carrol"/>
+                  <img src={AdamTransparent} className="cut-out" alt="a picture of online fitness coach Adam Carroll"/>
                </div>
             </div>
          </div>
