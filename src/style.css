@@ -399,7 +399,7 @@ b{
 
 .cut-out{
     position: relative;
-    height: 1000px;
+    max-height: 800px;
 }
 
 
@@ -407,6 +407,7 @@ b{
     min-height: 60vh;
     background-color: #9FCBDF;
     color:white;
+    max-width: 100%;
 }
 
 .center-child{

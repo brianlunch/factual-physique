@@ -25,7 +25,7 @@ const About = () => {
                      </blockquote>
                   </div>
                </div>
-               <div className="col-lg-4 col-md-4 col-xs-12 ">
+               <div className="col-lg-4 col-md-4 col-xs-12">
                   <img src={AdamTransparent} className="cut-out" alt="a picture of online fitness coach Adam Carroll"/>
                </div>
             </div>
