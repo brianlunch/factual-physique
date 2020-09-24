@@ -90,7 +90,17 @@ const Nav = ({user}) => {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/profile">Contact</Link>
+                        <Link
+                            className="nav-link"
+                            activeClass="active"
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration= {500}
+                            >
+                            Contact
+                        </Link>
                     </li>
                     
                 </ul>
