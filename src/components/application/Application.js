@@ -57,16 +57,19 @@ const Application = (props) => {
                setApplicationState({...applicationState, emailSent : true})
                
                // redirect to calendly
+               window.location.assign('https://calendly.com/factualphysique/15min');
               
             } 
             else {
                setApplicationState({...applicationState, disabled : false})
                setApplicationState({...applicationState, emailSent : false})
+               // add error handling
             }
          })
          .catch(err => {
             setApplicationState({...applicationState, disabled : false})
             setApplicationState({...applicationState, emailSent : false})
+            // add error handling
             console.log(err);
            
         })
