@@ -102,9 +102,6 @@ const Nav = ({user}) => {
                             Contact
                         </Link>
                     </li>
-                    <li className="nav-item">
-                        <a target="_blank" rel="noopener noreferrer" className="nav-link" href="https://newsletter.factualphysique.com/signup" >Newsletter</a>
-                    </li>
                     
                 </ul>
             </div>
